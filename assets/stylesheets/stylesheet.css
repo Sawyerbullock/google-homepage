@@ -61,6 +61,8 @@ styles
 
 html,
 body {
+	width: 100%;
+	height: 100%;
 	background: #fff;
 	color: #222;
 	font-size: small;
@@ -78,6 +80,13 @@ Main
 .extra {
 	text-align: center;
 }
+.logo img {
+	text-align: center;
+}
+.logo {
+	padding-top: 160px;
+}
+
 
 /*
 =============
@@ -91,13 +100,26 @@ general nav
 	list-style: none;
 	text-decoration: none;
 }
-.left {
+li.left {
 	float: left;
 }
-.right {
-	display: flex;
+li.right {
 	float: right;
+	display: flex;
 	align-items: center;
+}
+.nav-head .left {
+	margin-top: 5px;
+}
+.nav-head .right {
+	margin: 0;
+}
+ul {
+	overflow: hidden;
+	padding: 20px 17px;
+}
+li {
+	display: list-item;
 }
 
 /*
@@ -113,3 +135,27 @@ header
 footer
 ===============
 */
+
+/*
+===========
+links
+===========
+*/
+
+a {
+	color: #222;
+	margin: 0 10px;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+==========
+images
+==========
+*/
+
+header img {
+	height: 30px;
+}
