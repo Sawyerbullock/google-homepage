@@ -81,10 +81,26 @@ Main
 	text-align: center;
 }
 .logo img {
+	padding-right: 40px;
 	text-align: center;
+	height: 130px;
 }
 .logo {
-	padding-top: 160px;
+	padding-top: 140px;
+}
+form {
+	padding-top: 15px;
+}
+input {
+    margin: 10px 10px;
+}
+#searchbar {
+	height: 25px;
+	width: 400px;
+}
+#button {
+	height: 20px;
+	
 }
 
 
@@ -135,6 +151,11 @@ header
 footer
 ===============
 */
+footer {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
 
 /*
 ===========
